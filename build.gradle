@@ -54,7 +54,7 @@ dependencies {
 
 task generateSwagger(type: JavaExec) {
 	// Could be implemented
-	outputs.upToDateWhen { true }
+	// outputs.upToDateWhen { true }
 	 
 	// Run generator
 	classpath = configurations.generate
